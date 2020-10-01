@@ -7,11 +7,30 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch reversingAnArry",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/reversingAnArray.js"
-        }
+            "program": "${workspaceFolder}/reversingAnArry.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch aList",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/aList.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch deepComparison",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/deepComparison.js"
+        },
+
     ]
 }
